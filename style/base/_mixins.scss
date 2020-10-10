@@ -1,0 +1,43 @@
+@mixin box-size ($w, $h) {
+    width: $w;
+    height: $h;
+
+}
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+@mixin arial-font {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@mixin bg-twitter {
+    background-image: radial-gradient(circle, #bae7f9, #9dddf9, #7dd2f9, #58c6fa, #1abbfb);
+}
+
+@mixin bg-facebook {
+    background-image: radial-gradient(circle, #6d85be, #6079b6, #536dad, #4661a5, #39569c);
+}
+
+@mixin bg-linkedin {
+    background-image: radial-gradient(circle, #706ae0, #5e5bce, #4d4cbd, #3a3dac, #242f9b);
+}
+
+@mixin bg-instagram {
+    background-image: radial-gradient(circle, #5851db, #9444c9, #b938b3, #d2319b, #e13584);
+}
+
+@mixin bg-youtube {
+    background-image: radial-gradient(circle, #e93131, #d82725, #c71c19, #b6100d, #a60000);
+}
+
+@mixin bg-tumblr {
+    background-image: radial-gradient(circle, #515bac, #434c99, #363d86, #282f74, #192162);
+}
+
+@mixin bg-dribbble {
+    background-image: radial-gradient(circle, #ff7676, #ff6b7e, #ff6089, #fb5695, #f54ea2);
+}
